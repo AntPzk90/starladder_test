@@ -13,10 +13,10 @@ class Stages extends React.Component {
           <p className="stages__dscr">
             The path to every Major begins with the open qualifiers for the
             regional Minor Championships, spanning Europe, CIS, Americas, and
-            Asia.{" "}
-            <a href="#" className="stages__link">
+            Asia.
+            <a href="https://some-link.com" className="stages__link">
               Here is
-            </a>{" "}
+            </a>
             the schedule of every qualifying stage of StarLadder Major.
           </p>
           <b className="stages__registered">

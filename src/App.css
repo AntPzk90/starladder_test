@@ -566,11 +566,13 @@ h6 {
 @media screen and (max-width: 1366px) {
   .card {
     width: 312px;
+    padding: 15px;
   }
 }
 @media screen and (max-width: 1280px) {
   .card {
     width: 294px;
+    padding: 25px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -614,8 +616,13 @@ h6 {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.card--battles .card__wrapper--top {
+  margin-bottom: 81px;
+  min-height: 66px;
+}
 .card__wrapper--top {
   margin-bottom: 71px;
+  min-height: 66px;
 }
 @media screen and (max-width: 576px) {
   .card__wrapper--top {
@@ -626,9 +633,6 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-.card--battles:not(.card--active) .card__wrapper--top {
-  margin-bottom: 82px;
 }
 @media screen and (max-width: 576px) {
   .card--battles:not(.card--active) .card__wrapper--top {
@@ -864,7 +868,7 @@ h6 {
   }
 }
 .card__discipline {
-  margin-top: 20px;
+  margin-top: 12px;
   margin-bottom: 12px;
 }
 @media screen and (max-width: 576px) {
@@ -1043,10 +1047,8 @@ h6 {
 }
 .faq__svg {
   position: absolute;
-  top: 50%;
+  top: 20px;
   right: 0;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 .faq__dscr {
   font-family: "Roboto", sans-serif;
