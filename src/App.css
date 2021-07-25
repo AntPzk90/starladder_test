@@ -1044,11 +1044,13 @@ h6 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #757c84;
+  cursor: pointer;
 }
 .faq__svg {
   position: absolute;
   top: 20px;
   right: 0;
+  cursor: pointer;
 }
 .faq__dscr {
   font-family: "Roboto", sans-serif;
