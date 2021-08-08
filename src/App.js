@@ -1,8 +1,9 @@
-import "./App.css";
-import Header from "./components/header/header";
-import StartScreen from "./components/start-screen/start-screen";
-import ScheduleResult from "./components/schedule-results/schedule-results";
-import Stages from "./components/stages/stages";
+import "./style/style.css";
+import "./style/style.css.map";
+import Header from "./components/components-static/header/header";
+import StartScreen from "./components/components-static/start-screen/start-screen";
+import ScheduleResult from "./components/components-static/schedule-results/schedule-results";
+import Stages from "./components/components-static/stages/stages";
 
 function App() {
   return (

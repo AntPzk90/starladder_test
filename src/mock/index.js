@@ -1,4 +1,32 @@
-export const matches = [
+export const BTNS = [
+  {
+    id: 0,
+    btnIdent: "btn--announcement",
+    txt: "Read Announcement",
+    icon: "arrow-icon",
+  },
+  {
+    id: 1,
+    btnIdent: "btn--tickets",
+    txt: "GET TICKETS",
+    icon: "tickets-icon",
+  },
+];
+
+export const TABLE = [
+  { id: 0, label: "Место:", value: "Берлин, Германия" },
+  { id: 1, label: "Даты:", value: "22 Сентября – 30 Октября 2020" },
+  { id: 2, label: "Призы:", value: "$1,000,000" },
+];
+
+export const SOCIAL = [
+  { id: 0, aria: "мы в twitter", icon: "twitter-icon" },
+  { id: 1, aria: "мы в twitch", icon: "twitch-icon" },
+  { id: 2, aria: "мы в facebook", icon: "facebook-icon" },
+  { id: 3, aria: "мы в vk", icon: "vk-icon" },
+];
+
+export const MATCHES = [
   {
     id: 1,
     title: "Asia Minor: Play-Off",
@@ -77,7 +105,7 @@ export const matches = [
   },
 ];
 
-export const battles = [
+export const BATTLES = [
   {
     id: 5,
     title: "Group Stage",
@@ -144,7 +172,113 @@ export const battles = [
   },
 ];
 
-export const faq = [
+export const PLAYERS = [
+  {
+    id: 0,
+    flag: "flag",
+    name: "Dianne Russell",
+    number: "353",
+    order: true,
+  },
+  {
+    id: 1,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "1",
+  },
+  {
+    id: 2,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "2",
+  },
+  {
+    id: 3,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "3",
+  },
+  {
+    id: 4,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "4",
+  },
+  {
+    id: 5,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "5",
+  },
+  {
+    id: 6,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "6",
+  },
+  {
+    id: 7,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "7",
+  },
+  {
+    id: 8,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "8",
+  },
+  {
+    id: 9,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "9",
+  },
+  {
+    id: 10,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "10",
+  },
+  {
+    id: 11,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "11",
+  },
+  {
+    id: 12,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "12",
+  },
+  {
+    id: 13,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "13",
+  },
+  {
+    id: 14,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "14",
+  },
+  {
+    id: 15,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "15",
+  },
+  {
+    id: 16,
+    flag: "flag",
+    name: "Natus Vincere",
+    number: "16",
+  },
+];
+
+export const FAQ = [
   {
     id: 1,
     title: "SUPPORT",
