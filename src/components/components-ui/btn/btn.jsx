@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-class Logo extends React.Component {
+class Btn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,7 +11,6 @@ class Logo extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <button
         className={`btn ${this.state.btnAtive ? "btn--active" : ""} ${
@@ -26,4 +26,13 @@ class Logo extends React.Component {
   }
 }
 
-export default Logo;
+Btn.propTypes = {
+  btn: PropTypes.shape({
+    id: PropTypes.number,
+    btnIdent: PropTypes.string,
+    txt: PropTypes.string,
+    icon: PropTypes.string,
+  }),
+};
+
+export default Btn;

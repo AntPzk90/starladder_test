@@ -1,5 +1,5 @@
 import React from "react";
-import { FAQ } from "../../../mock/index";
+import PropTypes from "prop-types";
 
 class Faq extends React.Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class Faq extends React.Component {
     return (
       <div className="faq stages__faq">
         <ul className="faq__list">
-          {FAQ.map((item) => {
+          {this.props.faq.map((item) => {
             return (
               <li
                 className={`faq__item ${
@@ -49,5 +49,15 @@ class Faq extends React.Component {
     );
   }
 }
+
+Faq.propTypes = {
+  faq: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+      dscr: PropTypes.string,
+    })
+  ),
+};
 
 export default Faq;

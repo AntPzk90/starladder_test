@@ -35,6 +35,7 @@ class CardList extends React.Component {
 CardList.propTypes = {
   matches: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.number,
       title: PropTypes.string,
       link: PropTypes.string,
       firstTeam: PropTypes.shape({
@@ -43,6 +44,7 @@ CardList.propTypes = {
         coef: PropTypes.number,
       }),
       secondTeam: PropTypes.shape({
+        id: PropTypes.number,
         title: PropTypes.string,
         img: PropTypes.string,
         coef: PropTypes.number,

@@ -4,6 +4,7 @@ import Faq from "../../components-ui/faq/faq";
 import Players from "../../components-ui/players/players";
 import StatusList from "../status-list/status-list";
 import { PLAYERS } from "../../../mock/index";
+import { FAQ } from "../../../mock/index";
 
 const Stages = () => {
   return (
@@ -32,7 +33,7 @@ const Stages = () => {
           <div className="stages__column">
             <StatusList />
             <Confirmation />
-            <Faq />
+            <Faq faq={FAQ} />
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class Table extends React.Component {
   render() {
@@ -18,5 +19,15 @@ class Table extends React.Component {
     );
   }
 }
+
+Table.propTypes = {
+  players: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      label: PropTypes.string,
+      value: PropTypes.string,
+    })
+  ),
+};
 
 export default Table;

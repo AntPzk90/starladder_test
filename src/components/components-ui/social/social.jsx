@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Social = (props) => {
   const { socials } = props;
@@ -21,6 +22,16 @@ const Social = (props) => {
       })}
     </ul>
   );
+};
+
+Social.propTypes = {
+  socials: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      aria: PropTypes.string,
+      icon: PropTypes.string,
+    })
+  ),
 };
 
 export default Social;

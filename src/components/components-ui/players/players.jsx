@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Players = (props) => {
   const { players } = props;
@@ -34,6 +35,18 @@ const Players = (props) => {
       })}
     </ul>
   );
+};
+
+Players.propTypes = {
+  players: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      flag: PropTypes.string,
+      name: PropTypes.string,
+      number: PropTypes.string,
+      order: PropTypes.bool,
+    })
+  ),
 };
 
 export default Players;
